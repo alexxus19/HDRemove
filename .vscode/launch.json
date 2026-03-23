@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug HDRemove",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/.build/debug/HDRemove",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "swift: build"
+    }
+  ]
+}

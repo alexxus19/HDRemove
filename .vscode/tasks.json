@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "swift: build",
+      "type": "shell",
+      "command": "swift",
+      "args": [
+        "build"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "swift: run",
+      "type": "shell",
+      "command": "swift",
+      "args": [
+        "run",
+        "HDRemove"
+      ],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "swift: build app bundle",
+      "type": "shell",
+      "command": "./scripts/build_app.sh",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}
