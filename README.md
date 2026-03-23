@@ -1,6 +1,8 @@
 # HDRemove
 A tool to convert images to smaller formats and remove the annoying HDR tag from modern phones.
 
+everything from here on is vibe coded:
+
 Kleine macOS-App zum Neu-Schreiben von Bildern als SDR-Dateien. Die App akzeptiert mehrere Dateien per Drag and Drop, skaliert optional die Kantenlaenge und exportiert in ein waehlbares Zielformat.
 
 Zusatzfunktionen:
